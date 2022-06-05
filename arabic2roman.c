@@ -7,9 +7,6 @@ const char* tens[10] = { "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC",
 
 int main(int argc, char* argv[]) {
 	int arabic = atoi(argv[1]);
-	int roman; 
-
-	//printf("%i", arabic);
 
 	if (arabic > 100 || arabic == 0) {
 		printf("Sorry, this program does not support this number at this time.\n");
