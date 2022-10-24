@@ -24,5 +24,7 @@ int main(int argc, char* argv[]) {
 		strcat(roman, arabic_ones);
 
 		printf("%s\n", roman);
+		
+		free(roman);
 	}
 }
